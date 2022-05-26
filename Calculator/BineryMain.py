@@ -1,6 +1,4 @@
-import BineryCalculator
-
-
+from src import BineryCalculator
 
 selection =1
 

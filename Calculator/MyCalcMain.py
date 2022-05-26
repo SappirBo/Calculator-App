@@ -1,6 +1,4 @@
-import MyCalculator
-
-
+from src import MyCalculator
 
 selection =1
 

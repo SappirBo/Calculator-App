@@ -4,8 +4,6 @@ To Do (Options):
 polynomial , graphPaint, ,ChineseRemainderTheorem, Integral and derivative
 det(A) ,
 
-
-
     BineryCalc - toDesimal, adding, Subtraction, mult,
 
     Encryption -Caesar cipher , OPTIONAL: Enigma, RSA .
@@ -45,7 +43,6 @@ def lcm(x,y):
 
 def fibonacciNumber(index):
     fibuList = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
-
     if int(index) <= len(fibuList)-1 :
         return fibuList.pop(index)
     else:
@@ -92,5 +89,3 @@ def CatalanNumber(num):
     else:
         ans = math.comb(2*num,num) *(1/(num+1))
         return ans
-
-
